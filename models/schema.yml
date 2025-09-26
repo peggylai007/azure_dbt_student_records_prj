@@ -20,8 +20,31 @@ models:
           - unique
           - not_null
 
-  - name: crse_topics
 
+  - name: acad_car_tbl
 
   - name: class_attribute
+
+  - name: crse_component
+
+  - name: crse_topics
+  
+  - name: stdnt_cohort
+
+  
+  - name: stg_acad_prog_tbl
+
+  - name: stg_academic_careers
+
+  - name: stg_academic_groups
+  
+  - name: stg_acadeimc_organizations
+
+  - name: stg_cip_codes
+
+
+  - name: stg_hegis_codes
+  
+
+
 
