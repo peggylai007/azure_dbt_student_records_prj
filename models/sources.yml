@@ -84,10 +84,12 @@ sources:
       - name: ps_m_sr_stu_plc_hd
       - name: ps_m_sr_stu_plcmnt
       - name: ps_m_sr_ta_tuitat
-      - name: ps_mlstn_atmpt
+      - name: ps_mlstn_atmpt      
+      - name: ps_name_prefix_tbl
       - name: ps_org_contact
       - name: ps_org_dept
       - name: ps_org_location
+      - name: ps_person
       - name: ps_person_checklst
       - name: ps_person_chk_item
       - name: ps_personal_data

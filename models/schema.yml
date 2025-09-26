@@ -44,7 +44,9 @@ models:
 
 
   - name: stg_hegis_codes
-  
+ 
+ 
+  - name: stg_name_prefix_tbl.sql
 
 
 
