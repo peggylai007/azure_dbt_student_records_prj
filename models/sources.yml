@@ -21,6 +21,8 @@ sources:
       - name: ps_acad_subpln_tbl
       - name: ps_addresses
       - name: ps_adj_code_trm_vw
+    
+      - name: ps_adm_appl_cmp
       - name: ps_adm_appl_data
       - name: ps_adm_appl_prog
       - name: ps_adm_functn_tbl
@@ -57,6 +59,7 @@ sources:
       - name: ps_degree_tbl
       - name: ps_dept_tbl
       - name: ps_enrl_req_detail
+      - name: ps_ethnic_grp_tbl
       - name: ps_ext_course
       - name: ps_ext_org_tbl
       - name: ps_ext_org_tbl_adm
@@ -67,6 +70,7 @@ sources:
       - name: ps_location_tbl
       - name: ps_ls_schl_typ_tbl
       - name: ps_m_cc_comm_tbl
+      - name: ps_m_cc_eth_rpt_vw
       - name: ps_m_cc_ordrnam_vw
       - name: ps_m_he_acdprg_caf
       - name: ps_m_sr_acdpln_caf
@@ -144,5 +148,4 @@ sources:
       - name: ps_var_data_strm
       - name: psxlatitem
       - name: ps_divers_ethnic
-      - name: ps_ethnic_grp_tbl
       - name: ps_ethnicity_dtl

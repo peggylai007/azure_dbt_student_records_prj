@@ -42,11 +42,21 @@ models:
 
   - name: stg_cip_codes
 
+  
+  - name: stg_ethnic
+
+
+  - name: stg_first_gen_ug_stdnt_ind
+
+
+  - name: stg_first_last_term_attended
+
+
 
   - name: stg_hegis_codes
  
  
-  - name: stg_name_prefix_tbl.sql
+  - name: personal_data
 
 
 
