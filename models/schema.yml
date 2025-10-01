@@ -52,6 +52,7 @@ models:
   - name: stg_first_last_term_attended
 
 
+  - name: stg_est_gross_fam_inc_des
 
   - name: stg_hegis_codes
  

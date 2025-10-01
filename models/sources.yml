@@ -24,6 +24,8 @@ sources:
     
       - name: ps_adm_appl_cmp
       - name: ps_adm_appl_data
+
+      - name: ps_adm_appl_eval
       - name: ps_adm_appl_prog
       - name: ps_adm_functn_tbl
       - name: ps_admit_type_tbl
@@ -99,6 +101,7 @@ sources:
       - name: ps_personal_data
       - name: ps_personal_phone
       - name: ps_prog_rsn_tbl
+      - name: ps_rating_val_tbl
       - name: ps_repeat_code_tbl
       - name: ps_rq_grp_tbl
       - name: ps_rq_line_tbl

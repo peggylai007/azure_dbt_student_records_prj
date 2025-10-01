@@ -36,7 +36,8 @@ with personal_data as (
         flterm.first_term_attended_descrshort,
         flterm.last_term_attended,
         flterm.last_term_attended_descrshort,
-        fgen.first_gen_stdnt_ind
+        fgen.first_gen_stdnt_ind,
+        faminc.est_gross_fam_inc_des
 
     from {{ source('cs', 'ps_personal_data') }} pd
     join {{ source('cs', 'ps_acad_prog') }} car2
@@ -54,7 +55,9 @@ with personal_data as (
     left join stg_first_last_term_attended flterm 
         on pd.emplid = flterm.emplid  
     left join stg_first_gen_ug_stdnt_ind fgen
-        on pd.emplid = fgen.emplid  
+        on pd.emplid = fgen.emplid 
+    left join stg_est_gross_fam_inc_des faminc
+        on pd.emplid = faminc.emplid 
 ),
 
 final as (
